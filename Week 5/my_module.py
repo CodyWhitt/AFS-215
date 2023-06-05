@@ -16,3 +16,5 @@ class StringList:
 
     def evaluate_list(self):
         return all(isinstance(item, str) for item in self._list)
+
+# first try at code seems pretty good. not seeing anything i could really refactor. 
